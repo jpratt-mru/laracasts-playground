@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    display:flex;
+    align-items: center;
+}
+
+nav {
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+li.nav-item {
+    padding: 3em;
+}
