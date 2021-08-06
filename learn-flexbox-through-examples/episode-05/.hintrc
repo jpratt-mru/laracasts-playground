@@ -1,0 +1,6 @@
+{
+    "hints": {
+        "apple-touch-icons": "warning",
+        "sri": "hint"
+    }
+}

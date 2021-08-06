@@ -1,0 +1,51 @@
+body,html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.media-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border: 1px solid #cecece;
+    padding: 20px;
+}
+
+.media {
+    display: flex;
+    width: 100%;
+}
+
+.media-left {
+    background-color: aqua;
+    margin-right: 1em;
+}
+
+.media-content {
+    background-color: bisque;
+    flex: 1;
+}
+
+.media-content textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 0;
+}
+
+.media-content-buttons {
+    align-self: flex-end;
+}
+
+.media-content h4 {
+    margin: 0;
+}
+

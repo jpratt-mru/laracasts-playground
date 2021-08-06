@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.episode-list {
+    max-width: 300px;
+}
+
+.episode-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #cecece;
+    padding: 10px 0;
+}
+
+.episode-list-item .title {
+    margin-right: auto;
+    padding-left: 1em;
+}
+
+.episode-list-item .title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.episode-list-item.is-current i {
+    color: red;
+    padding-right: 1em;
+}
+
+.episode-list-item .position {
+    color: blue;
+    font-weight: bold;
+}
+
+.episode-list-item .title a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    background: yellow;
+    margin: 0;
+    padding: 0;
+}
